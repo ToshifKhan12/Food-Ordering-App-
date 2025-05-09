@@ -16,6 +16,7 @@ const Navbar = () => {
         </h3>
         <h1 className="text-2xl font-bold ml-32 align-middle text-white">Flavoro Foods</h1>
       </div>
+      <div className="mt-8">
       <div>
         <input
           type="search"
@@ -26,6 +27,7 @@ const Navbar = () => {
           onChange={(e) => dispatch(setSearch(e.target.value))}
           className="p-3 border border-gray-400 text-sm rounded-lg outline-none w-full lg:w-[25vw]"
         />
+      </div>
       </div>
     </nav>
   );
