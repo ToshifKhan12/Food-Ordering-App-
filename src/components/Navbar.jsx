@@ -15,9 +15,9 @@ const Navbar = () => {
           {new Date().toUTCString().slice(0, 16)}
         </h3>
         <h1 className="text-2xl font-bold ml-32 align-middle text-white">Flavoro Foods</h1>
-      </div>
-      <div className="mt-8">
-      <div>
+        </div>
+      {/* <div className="mt-8"> */}
+      <div className="pt-5 mt-5 sm:p-0 sm:m-0">
         <input
           type="search"
           name="search"
@@ -28,7 +28,7 @@ const Navbar = () => {
           className="p-3 border border-gray-400 text-sm rounded-lg outline-none w-full lg:w-[25vw]"
         />
       </div>
-      </div>
+      {/* </div> */}
     </nav>
   );
 };
